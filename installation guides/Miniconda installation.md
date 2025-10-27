@@ -1,9 +1,10 @@
 This document contains instructions to install miniconda on your specific OS.
 
 Please find the various steps here:
-[Miniconda Installation on Windows](#Miniconda-Installation-on-Windows)
 
-
+- [Windows](#Miniconda-Installation-on-Windows)
+- [MacOS](#Miniconda-Installation-on-macOS)
+- [Linux](#Miniconda-Installation-on-Linux)
 
 ### **Miniconda Installation on Windows**
 
