@@ -20,14 +20,18 @@ cd D:\UHI
 Create the environment _inside the project folder_:
 
 `conda create --prefix ./uhi-env` 
+
 `conda activate ./uhi-env`
 
 ---
 ## 3. Install Required Python Packages
+Run the following lines on your terminal in this order: 
 
-`conda install geopandas localtileserver ipykernel jupyterlab earthengine-api -c conda-forge`
+i) `conda install geopandas localtileserver ipykernel jupyterlab earthengine-api -c conda-forge`
 
-`conda install geemap -c conda-forge pip install oee`
+ii) `conda install geemap -c conda-forge` 
+
+iii) `pip install oeel`
 
 ---
 
@@ -51,7 +55,7 @@ Install npm dependencies:
 
 ## 6. Usage Notes
 
-To activate the environment later:
+To activate the environment later within your project folder:
 
 `conda activate ./uhi-env`
 
