@@ -2,20 +2,38 @@
 
 This document explains how to create and configure a working Python environment for the UHI project using Miniconda.
 
-It is recommended to put your project folder in your drive root, or in Documents. In this example, we will use D:\
+It is recommended to put your project folder/save the UHI folder provided in your drive root, or in Documents. In this example, we will use D:\
 
 ---
 
 ## 1. Open Miniconda
 
-Open your **Miniconda Prompt** (Windows) or **Terminal** (macOS / Linux).
+#### **Windows**
+1. Click the **Start Menu**.
+2. Type **Miniconda**.
+3. Select **Miniconda Prompt** (or **Anaconda Prompt** if that’s what was installed).
+4. A black command window opens — this is where you will enter conda commands.
 
-Navigate to your UHI project folder:
+#### **macOS**
+1. Open **Finder**.
+2. Go to **Applications → Utilities**.
+3. Open **Terminal**.
+4. You can now type conda commands — but if conda is not recognized yet, run:
+    `source ~/.zshrc`
 
+#### **Linux (Ubuntu/Debian)**
+1. Press **Ctrl + Alt + T** to open Terminal, or open **Terminal** from your applications menu.
+2. Type conda commands — if conda is not recognized, run:
+    `source ~/.bashrc`
+    (or `source ~/.zshrc` if using zsh)
 
-cd D:\UHI
+---
 
 ## 2. Create and Activate the Conda Environment
+
+Navigate to your UHI project folder:
+ 
+  example: cd D:\UHI
 
 Create the environment _inside the project folder_:
 
