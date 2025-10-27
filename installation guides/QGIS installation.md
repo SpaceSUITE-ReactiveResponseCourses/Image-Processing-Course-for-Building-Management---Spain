@@ -3,14 +3,16 @@
 This guide provides instructions for installing **QGIS 3.28 LTR (Long-Term Release)** on Windows, macOS, and Ubuntu/Debian Linux.  
 The LTR version is recommended for training, teaching, and production workflows due to its stability and extended support.
 
+We will use version QGIS 3.28 LTR 'Firenze' due to its tested performance with the plugins we will need.
+
 ---
 
 ## 1. Windows Installation (QGIS 3.28 LTR)
 
 ### Step 1 — Download the Installer
-1. Open a web browser and go to: https://qgis.org/download/
-2. Locate the **Long Term Release (LTR)** section.
-3. Download the **Standalone Installer** for Windows.
+
+https://qgis.org/downloads/QGIS-OSGeo4W-3.28.2-1.msi
+
 
 ### Step 2 — Install QGIS
 1. Locate the downloaded installer file (typically in your Downloads folder).
@@ -29,8 +31,7 @@ The LTR version is recommended for training, teaching, and production workflows 
 ## 2. macOS Installation (QGIS 3.28 LTR)
 
 ### Step 1 — Download the Installer
-1. Go to: https://qgis.org/download/
-2. Under **Long Term Release (LTR)**, download the `.dmg` installer for macOS.
+https://qgis.org/downloads/macos/qgis-macos-pr.dmg
 
 ### Step 2 — Install QGIS
 1. Open the `.dmg` file.
@@ -72,4 +73,10 @@ sudo apt update
 sudo apt install qgis qgis-plugin-grass
 
 # 6. Launch QGIS
+
+
+Alternatively, you can find the recommended version for your OS here:
+https://download.qgis.org//downloads/
+
+Please contact us for installation support if needed before the courses.
 qgis
