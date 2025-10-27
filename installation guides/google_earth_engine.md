@@ -1,7 +1,7 @@
 ### **Registering Your Project in Google Earth Engine (Simple Steps)**
 For the UHI training, you will need to register a project on google earth engine. This is done directly using your google account, and is open access.
 
-Note: For this training, please Ggrant all permissions to enable google earth engine to access google drive, to save your processed files. You may remove permissions later if necessary.
+**Note:** For this training, please grant all permissions to enable google earth engine to access google drive, to save your processed files. You may remove permissions later if necessary.
 
 
 1. **Open Earth Engine**  
