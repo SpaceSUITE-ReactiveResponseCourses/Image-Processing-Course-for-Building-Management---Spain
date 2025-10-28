@@ -4,6 +4,8 @@ This document explains how to create and configure a working Python environment 
 
 It is recommended to put your project folder/save the UHI folder provided in your drive root, preferrably outside of C:\. In this example, we will use D:\
 
+**NOTE**: While installing conda and the packages, please keep an eye on your terminal for **Proceed([y]/n)?** prompts, and type in **y** to continue.
+
 ---
 
 ## 1. Open Miniconda
@@ -11,7 +13,7 @@ It is recommended to put your project folder/save the UHI folder provided in you
 #### **Windows**
 1. Click the **Start Menu**.
 2. Type **Miniconda**.
-3. Select **Miniconda Prompt** (or **Anaconda Prompt** if that’s what was installed).
+3. Select **Miniconda Prompt** (or **Anaconda Prompt(Miniconda3** ).
 4. A black command window opens — this is where you will enter conda commands.
 
 #### **macOS**
@@ -37,12 +39,13 @@ Navigate to your UHI project folder:
 
 Create the environment _inside the project folder_:
 
-`conda create --prefix ./uhi-env` 
+`conda create --prefix ./uhi-env python=3.11` 
 
 `conda activate ./uhi-env`
 
 ---
 ## 3. Install Required Python Packages
+
 Copy and paste the following lines on your terminal, and run(press enter) in this order: 
 
 i) `conda install geopandas localtileserver ipykernel jupyterlab earthengine-api -c conda-forge`
@@ -51,11 +54,8 @@ ii) `conda install geemap -c conda-forge`
 
 iii) `pip install oeel`
 
----
+iv) `conda install nodejs=18.17.1`
 
-## 4. Install Node.js (required for OEEL)
-
-`conda install nodejs=18.17.1`
 
 ---
 
@@ -80,3 +80,6 @@ To activate the environment later within your project folder:
 To deactivate the environment:
 
 `conda deactivate`
+
+
+You can close your terminal
