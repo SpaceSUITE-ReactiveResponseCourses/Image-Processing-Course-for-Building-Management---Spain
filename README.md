@@ -4,8 +4,6 @@ For the upcoming hand-on courses, the following need to be pre-installed in your
 
 It is important to have these installed before the courses.
 
-Please contact us if you encounter a problem or need some assistance.
-
 1. QGIS
    - For this course we will work wth QGIS 3.28 'Firenze' LTR(Long Term Release). This is a few versions behind the latest version, but because of the compatibility of the plugins we will use, this version is ideal for the course.
    - You can find the installation guide for this here: [QGIS installation](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/QGIS%20installation.md)
@@ -23,3 +21,8 @@ Please contact us if you encounter a problem or need some assistance.
    - You need to have login credentials to download satellite data in the exercises.
    - You can find the instructions to do this here: [Copernicus](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/corpenicus%20login.md)
    - **NOTE**: If you have login credentials to the EU Portal, these will work as well.
+
+Please contact us if you encounter a problem or need some assistance.
+   - Evert Van Bever (KU Leuven): evert.vanbever@kuleuven.be
+   - Naomi Thiru (KU leuven): naomi.thiru@kuleuven.be
+   - Daniel Nieto Dorado (Tracasa): dnieto@tracasa.es
