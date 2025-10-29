@@ -56,7 +56,7 @@ ii) `conda install geemap -c conda-forge`
 
 iii) `pip install oeel`
 
-iv) `conda install nodejs=18.17.1`
+iv) `conda install -c conda-forge nodejs=18.17.1`
 
 
 ---
