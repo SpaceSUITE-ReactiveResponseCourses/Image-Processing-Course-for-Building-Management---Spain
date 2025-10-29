@@ -10,8 +10,12 @@ It is important to have these installed before the courses.
    -  We will install the plugins together in the session.
   
 2. Miniconda
-   - Miniconda is a python environment manager and is necessary to run python code on your computer.
+   - Miniconda is a python environment manager and is necessary to run the python code on your computer.
    - You can find the installation guide here: [Miniconda](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/Miniconda%20installation.md)
+  
+     2.1. Conda environment
+     - Next step is to install the conda environment we will use to run our python application.
+     - You can find the installation guide here: [Conda environment](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/python-environment.md)
   
 3. Google Earth engine
    - You need to have a google earth engine account, which is tied to your google account. Here, you can already register a 'project', as these credentials will be necessary for some of our exercises.
