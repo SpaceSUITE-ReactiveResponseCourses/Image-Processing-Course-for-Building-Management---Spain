@@ -16,7 +16,7 @@ It is recommended to put your project folder/save the UHI folder provided in you
 1. Click the **Start Menu**.
 2. Type **Miniconda**.
 3. Select **Miniconda Prompt** (or **Anaconda Prompt(Miniconda3** ).
-4. A black command window opens — this is where you will enter conda commands.
+4. A command window opens — this is where you will enter conda commands.
 
 #### **macOS**
 1. Open **Finder**.
