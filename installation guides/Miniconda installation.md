@@ -6,6 +6,11 @@ Please find the various steps here:
 - [MacOS](#Miniconda-Installation-on-macOS)
 - [Linux](#Miniconda-Installation-on-Linux)
 
+
+Full guide here: [Miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
+
+---
+
 ### **Miniconda Installation on Windows**
 
 1. Go to the Miniconda download page:  
@@ -38,7 +43,7 @@ Please find the various steps here:
 9. Verify the installation:
     `conda --version`
 
-
+---
 
 ### **Miniconda Installation on macOS**
 1. Determine your Mac type:
@@ -77,7 +82,7 @@ Please find the various steps here:
 3. Verify the installation:
     `conda --version`
 
-
+---
 
 ### **Miniconda Installation on Linux**
 1. Open a terminal.
