@@ -13,7 +13,7 @@ It is important to have these installed before the courses.
    - Miniconda is a python environment manager and is necessary to run the python code on your computer.
    - You can find the installation guide here: [Miniconda](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/Miniconda%20installation.md)
   
-     2.1. Conda environment
+     2.1. Conda environment (## DO NOT INSTALL THIS YET! CURRENTLY FIXING!!)
      - Next step is to install the conda environment we will use to run our python application.
      - You can find the installation guide here: [Conda environment](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/python-environment.md)
   
