@@ -2,6 +2,8 @@
 
 This document explains how to create and configure a working Python environment for the UHI project using Miniconda.
 
+All the lines provided in `this format` are to be copied and pasted onto you terminal, and press ENTER to run them, in the order provided.
+
 It is recommended to put your project folder/save the UHI folder provided in your drive root, preferrably outside of C:\. In this example, we will use D:\
 
 **NOTE**: While installing conda and the packages, please keep an eye on your terminal for **Proceed([y]/n)?** prompts, and type in **y** to continue.
@@ -48,7 +50,7 @@ Create the environment _inside the project folder_:
 
 Copy and paste the following lines on your terminal, and run(press enter) in this order: 
 
-i) `conda install geopandas localtileserver ipykernel jupyterlab earthengine-api -c conda-forge`
+i) `conda install geopandas localtileserver ipykernel jupyterlab earthengine-api nb_conda_kernels -c conda-forge`
 
 ii) `conda install geemap -c conda-forge` 
 
