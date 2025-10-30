@@ -7,7 +7,7 @@ It is important to have these installed before the courses.
 1. QGIS
    - For this course we will work wth QGIS 3.28 'Firenze' LTR(Long Term Release). This is a few versions behind the latest version, but because of the compatibility of the plugins we will use, this version is ideal for the course.
    - You can find the installation guide for this here: [QGIS installation](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/QGIS%20installation.md)
-   -  We will install the plugins together in the session.
+   - You can find the installation guide for the plugins here: [QGIS Plugins installation](https://github.com/SpaceSUITE-ReactiveResponseCourses/Image-Processing-Course-for-Building-Management---Spain/blob/main/installation%20guides/QGIS%20plugins%20installation.md)
   
 2. Miniconda
    - Miniconda is a python environment manager and is necessary to run the python code on your computer.
