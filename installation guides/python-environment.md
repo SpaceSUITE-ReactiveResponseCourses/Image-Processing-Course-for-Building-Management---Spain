@@ -35,41 +35,16 @@ It is recommended to put your project folder/save the UHI folder provided in you
 
 ## 2. Create and Activate the Conda Environment
 
-Navigate to your UHI project folder:
- 
-  example: cd D:\UHI
+`conda create -n uhi-env python=3.11` 
 
-Create the environment _inside the project folder_:
-
-`conda create --prefix ./uhi-env python=3.11` 
-
-`conda activate ./uhi-env`
+`conda activate uhi-env`
 
 ---
 ## 3. Install Required Python Packages
 
-Copy and paste the following lines on your terminal, and run(press enter) in this order: 
+Copy and paste the following lines on your terminal, and run(press enter): 
 
-i) `conda install geopandas localtileserver ipykernel jupyterlab earthengine-api nb_conda_kernels -c conda-forge`
-
-ii) `conda install geemap -c conda-forge` 
-
-iii) `pip install oeel`
-
-iv) `conda install -c conda-forge nodejs=18.17.1`
-
-
----
-
-## 5. Install Required npm Packages for OEEL
-
-Navigate to the OEEL package directory:
-
-`cd ./uhi-env/Lib/site-packages/oeel`
-
-Install npm dependencies:
-
-`npm install zeromq@6.0.0-beta.6 unpromisefy`
+`conda install geemap geopandas localtileserver ipykernel jupyterlab earthengine-api nb_conda_kernels -c conda-forge`
 
 ---
 
@@ -77,7 +52,7 @@ Install npm dependencies:
 
 To activate the environment later within your project folder:
 
-`conda activate ./uhi-env`
+`conda activate uhi-env`
 
 To deactivate the environment:
 
