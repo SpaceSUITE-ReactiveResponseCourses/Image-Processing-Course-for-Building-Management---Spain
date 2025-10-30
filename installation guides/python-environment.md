@@ -4,7 +4,6 @@ This document explains how to create and configure a working Python environment 
 
 All the lines provided in `this format` are to be copied and pasted onto you terminal, and press ENTER to run them, in the order provided.
 
-It is recommended to put your project folder/save the UHI folder provided in your drive root, preferrably outside of C:\. In this example, we will use D:\
 
 **NOTE**: While installing conda and the packages, please keep an eye on your terminal for **Proceed([y]/n)?** prompts, and type in **y** to continue.
 
