@@ -14,7 +14,7 @@ How to install:
     
 4. Click on it, then select Install Plugin.
     
-5. Once installed, you may restart QGIS. Alternatively, install the Dzetsaka plugin before resterting QGIS.
+5. Once installed, you may restart QGIS. Alternatively, install the Dzetsaka and Dissolve Adjacent Polygons plugins before resterting QGIS.
     
 
 You should now see a **SCP toolbar** and a new **SCP dock** panel (usually on the left side of the interface).
@@ -40,4 +40,18 @@ How to install:
 
 You’ll now see **Dzetsaka** in the Processing Toolbox (under “Dzetsaka”) and also in the Plugins menu.
 
+--- 
+
+### **Dissolve Adjacent Polygons**
+How to install:
+1. Open QGIS.
+    
+2. Go to Plugins → Manage and Install Plugins...
+    
+3. In the search bar, type *“Dissolve Adjacent Polygons”*.
+    
+4. Click on Dissolve Adjacent Polygons, then click Install Plugin.
+    
+5. After installation, restart QGIS.
+    
 
