@@ -19,6 +19,12 @@ How to install:
 
 You should now see a **SCP toolbar** and a new **SCP dock** panel (usually on the left side of the interface).
 
+NOTE: Incase of a missing package use the following process to install:
+- Navigate to C:\Program Files\QGIS 3.28.15
+- Launch OSGeo Shell by double clicking OSGeo4W.bat
+- For each missing package, use `python3 -m pip install [package]`
+
+
 --- 
 
 ### **Dzetsaka Classification Plugin**
